@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .form{
+            background-color: whitesmoke;
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+        }
+        input[type="email"]{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="password"]{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="confirm-password"]{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .sigin{
+            background-color: gainsboro;
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+            text-align: center;
+        }
+        input[type="email"]:focus{
+            background-color: aquamarine;
+            color: black;}
+        input[type="password"]:focus{
+            background-color: aquamarine;
+            color: black;}
+        input[type="confirm-password"]:focus{
+            background-color: aquamarine;
+            color: black;}
+        .btn{
+            background-color: rgb(236, 91, 91);
+            color: black;
+            width: 40%;
+            margin-right: 10px;
+        }
+        .rst{
+            background-color: rgb(45, 166, 213);
+            color: black;
+            width: 40%;
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body bgcolor="yellow">
+    <div>
+    <div class="form" >
+        <h1>Register</h1>
+        <h3>Please fill in this form to create an account.</h3>
+         <hr>
+          <form>
+            <label for="email"><b>Email</b></label><br>
+            <input type="email" id="email" placeholder="Enter Email" required><br>
+            <label for="password"><b>Password</b></label><br>
+            <input type="password" id="password" placeholder="Enter Password" required><br>
+            <label for="confirm-password"><b>Confirm Password</b></label><br>
+            <input type="password" id="password" placeholder="Confirm Password" required><br>
+         <hr>
+        <h5>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</h5>
+            <button type="submit" class="btn">Register</button>
+            <button type="reset" class="rst">Reset</button>
+          </form>
+    </div>
+    <div class="sigin">
+        <h4>Already have an account?  <a href="#">Sign in</a>.</div></h4>
+    </div></div>
+</body>
+</html>
