@@ -2,6 +2,10 @@ function hello(){
     console.log("hello")
 }
 hello();
+
+//changing it as arrow func without para
+const hello1=()=>console.log("hello1");
+hello1();
 function add(a,b){
     return(a+b);
 }
