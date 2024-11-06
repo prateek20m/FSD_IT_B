@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+            <div class="form" >
+                <h1>Student Form Register</h1>
+                <form name="Register" id="Register" method="post" action="#" onsubmit="validate()">
+                    <label for="sname">Name:</label><br>
+                    <input type="text" name="sname" id="sname" placeholder="Enter Student Name" required><br>
+                    <label for="fname">Father's Name:</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="Enter Father Name"><br>
+                    <label for="mname">Mother's Name:</label><br>
+                    <input type="text" name="mname" id="mname" placeholder="Enter Mother Name"><br>
+                    <label for="Name">Gender:</label><br>
+                    <input type="radio" name="Gender" value="Male" checked/>Male
+                    <input type="radio" name="Gender" value="Male" />Female<br>
+                    <label for="DOB">Date of birth:</label><br>
+                    <input type="date" name="DOB" id="DOB" placeholder="Enter Date of birth" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="Enter Email" required><br>
+                    <label for="Mobile">Mobile no:</label><br>
+                    <input type="number" name="Mobile" id="Mobile" placeholder="Enter Your Mobile no." required><br>
+                    <label for="Address">Address:</label><br>
+                    <textarea rows="3" cols="10" id="Address" placeholder="Enter Your Address">
+                    </textarea><br>
+                    <label for="Branch">Branch:</label><br>
+                    <select>
+                        <option value="IT">Information Technology</option>
+                        <option value="DS">Data Science</option>
+                        <option value="CSE">Computer Science Engineering</option>
+                        <option value="ECE">Electronics and Communication</option>
+                    </select><br>
+                    <label for="Section">Section:</label><br>
+                    <select>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select><br>    
+                    <button type="submit" class="btn">Register</button>
+                    <button type="reset" class="rst">Reset</button>
+                </form>
+            </div>
+    </div>
+    <script src="valid.js"></script>
+</body>
+</html>

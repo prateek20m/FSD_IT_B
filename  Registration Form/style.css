@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 152, 244);
+    border: 2px black;
+    align-items: center;
+}
